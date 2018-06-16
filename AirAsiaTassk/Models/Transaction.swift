@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import CoreData
+
+public enum TransactionType: Int , Codable {
+    case Debit, Credit
+}
+
+class Transaction : NSManagedObject {
+    
+    @NSManaged var menuText: String
+    @NSManaged var createdAt: NSDate
+}

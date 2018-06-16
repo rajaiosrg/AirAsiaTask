@@ -23,7 +23,7 @@ public class UserInfoManager {
         let accountManagedObjectID = coreDataManager.currentAccountUser.objectID
         let user  = coreDataManager.fetchAccountByManagedObjecID(managedObjectId: accountManagedObjectID) as Account
         var balance = user.balance
-        if balance > amount {
+        if balance >= amount {
             balance = balance - Int64(amount)
         }
         user.balance = balance

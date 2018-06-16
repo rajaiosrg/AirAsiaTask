@@ -1,0 +1,6 @@
+framework module Pods_AirAsiaTasskTests {
+  umbrella header "Pods-AirAsiaTasskTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -10,28 +10,37 @@ import UIKit
 
 import SVPinView
 
-class PinViewController: UIViewController {
+class PinViewController: BaseViewController {
     
     @IBOutlet weak var pinView: SVPinView!
     
     @IBOutlet weak var keyPadButton: UIButton!
     
+    @IBOutlet weak var clearPinButton: UIButton!
+    
     @IBOutlet weak var virtualKeyPad: AAVirtualKeyPad!
+    
+    let maxPinLength : Int = 5
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.navigationController?.navigationBar.isHidden = true
-        
-        let valenciaColor = UIColor(red: 218/255, green: 68/255, blue: 83/255, alpha: 1)
-        let discoColor = UIColor(red: 137/255, green: 33/255, blue: 107/255, alpha: 1)
-        setGradientBackground(view: self.view, colorTop: valenciaColor, colorBottom: discoColor)
+
+        super.setGradientColor(inView: self.view)
         
         virtualKeyPad.isHidden = true
+        clearPinButton.isHidden = true
         
         keyPadButtonConfiguration()
         configurePinView()
+        configureVirtualKeyPad()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        ContactsManager.shared.getContacts()
     }
     
     func keyPadButtonConfiguration()  {
@@ -40,6 +49,10 @@ class PinViewController: UIViewController {
 
         keyPadButton .setImage(normalImage , for: .normal)
         keyPadButton .setImage(selectedImage, for: .selected)
+        
+        clearPinButton.layer.cornerRadius = 2
+        clearPinButton.layer.borderColor = UIColor.white.cgColor
+        clearPinButton.layer.borderWidth = 1
     }
     
     func configurePinView() {
@@ -73,13 +86,23 @@ class PinViewController: UIViewController {
         pinView.didFinishCallback = didFinishEnteringPin(pin:)
     }
     
+    func configureVirtualKeyPad() {
+        virtualKeyPad.didTapNumberCallback = sendNumberToPinView(pin:)
+    }
+    
+    func sendNumberToPinView(pin : String) {
+        let currentPinLength : Int = pinView.currentPasswordLength()
+        if currentPinLength <= maxPinLength {
+            pinView.enterNumberAtIndex(at: currentPinLength, text: pin)
+        }
+    }
+    
     @objc func dismissKeyboard() {
         self.view.endEditing(false)
     }
     
     func didFinishEnteringPin(pin:String) {
         validateAndLoginPin(pin: pin)
-//showAlert(title: "Success", message: "The Pin entered is \(pin)")
     }
     
     func showAlert(title:String, message:String) {
@@ -91,46 +114,29 @@ class PinViewController: UIViewController {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        
     }
+    
+    @IBAction func clearPinAction(_ sender: UIButton) {
+        pinView.clearPin()
+    }
+    
     
     @IBAction func handleKeyPadAction(_ sender: UIButton) {
         keyPadButton.isSelected = !keyPadButton.isSelected
-        
         virtualKeyPad.isHidden = !keyPadButton.isSelected
-        
-        print("\(keyPadButton.isSelected ? "YES" : "NO")")
+        pinView.shouldShowKeboard = !keyPadButton.isSelected
+        clearPinButton.isHidden = !keyPadButton.isSelected
         self.view.endEditing(false)
     }
     
-    
-    func setGradientBackground(view:UIView, colorTop:UIColor, colorBottom:UIColor) {
-        let gradientLayer = CAGradientLayer()
-        gradientLayer.colors = [colorTop.cgColor, colorBottom.cgColor]
-        gradientLayer.locations = [0.0, 1.0]
-        gradientLayer.frame = view.bounds
-        view.layer.insertSublayer(gradientLayer, at: 0)
-    }
-
-    
     func validateAndLoginPin(pin : String)  {
-        let login = JSONDataHelper().loginData()
-        if Int(pin) == login.pin {
-           print("============== Login Success =============")
-            
+        let defaultAccount = CoreDataManger.sharedManager.currentAccountUser
+        if Int64(pin) == defaultAccount.pin {
+            UserInfoManager().markUserAsLoggedIn(userId: defaultAccount.uid)
+            self.present(UIManager().tabBarController, animated: true, completion: nil)
         } else {
             showAlert(title: "Invalid Pin", message: "Please Check once again")
         }
     }
-
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destinationViewController.
-     // Pass the selected object to the new view controller.
-     }
-     */
 }
 

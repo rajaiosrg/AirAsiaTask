@@ -12,12 +12,36 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var uiManager = UIManager()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+    
+    
+       let defaultAccount = CoreDataManger.sharedManager.loadDefaultAccount() as Account
+        
+        // Set the window to the dimensions of the device
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        
+        // Grab a reference to whichever storyboard you have the ViewController within
+        let storyboard = uiManager.storyBoard()
+        
+        // Grab a reference to the ViewController you want to show 1st.
+        var initialViewController = storyboard.instantiateViewController(withIdentifier: "PinNavigationViewController")
+    
+        if defaultAccount.isSignedIn {
+            initialViewController = uiManager.tabBarController
+        }
+        // Set that ViewController as the rootViewController
+        self.window?.rootViewController = initialViewController
+        
+        // Sets our window up in front
+        self.window?.makeKeyAndVisible()
+
+        
         return true
     }
+
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

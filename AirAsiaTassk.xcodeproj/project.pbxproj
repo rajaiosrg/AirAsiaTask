@@ -7,6 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		023CE6D110168F77DCE361E0 /* Pods_AirAsiaTasskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F172BD3597F580F6AC6B22 /* Pods_AirAsiaTasskUITests.framework */; };
+		699F235420D534E2003F143A /* TestsCoreDataStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F235320D534E2003F143A /* TestsCoreDataStorageManager.swift */; };
+		699F235520D534E2003F143A /* TestsCoreDataStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F235320D534E2003F143A /* TestsCoreDataStorageManager.swift */; };
+		699F235F20D541C7003F143A /* TransactionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F235E20D541C7003F143A /* TransactionsTests.swift */; };
+		699F236420D55CD6003F143A /* Transaction+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F236020D55CD5003F143A /* Transaction+CoreDataProperties.swift */; };
+		699F236520D55CD6003F143A /* Account+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F236120D55CD5003F143A /* Account+CoreDataClass.swift */; };
+		699F236620D55CD6003F143A /* Account+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F236220D55CD6003F143A /* Account+CoreDataProperties.swift */; };
+		699F236720D55CD6003F143A /* Transaction+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F236320D55CD6003F143A /* Transaction+CoreDataClass.swift */; };
+		699F236F20D55F05003F143A /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F236E20D55F05003F143A /* KeyboardViewController.swift */; };
+		699F237320D55F05003F143A /* AAKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 699F236C20D55F05003F143A /* AAKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		699F239F20D57A3C003F143A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 699F238B20D57A3C003F143A /* Media.xcassets */; };
+		699F23A020D57A3C003F143A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 699F238B20D57A3C003F143A /* Media.xcassets */; };
+		699F23A120D57A3C003F143A /* ExtraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F238C20D57A3C003F143A /* ExtraView.swift */; };
+		699F23A220D57A3C003F143A /* ExtraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F238C20D57A3C003F143A /* ExtraView.swift */; };
+		699F23A320D57A3C003F143A /* KeyboardKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F238D20D57A3C003F143A /* KeyboardKey.swift */; };
+		699F23A420D57A3C003F143A /* KeyboardKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F238D20D57A3C003F143A /* KeyboardKey.swift */; };
+		699F23A520D57A3C003F143A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F238E20D57A3C003F143A /* Utilities.swift */; };
+		699F23A620D57A3C003F143A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F238E20D57A3C003F143A /* Utilities.swift */; };
+		699F23A720D57A3C003F143A /* KeyboardInputTraits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F238F20D57A3C003F143A /* KeyboardInputTraits.swift */; };
+		699F23A820D57A3C003F143A /* KeyboardInputTraits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F238F20D57A3C003F143A /* KeyboardInputTraits.swift */; };
+		699F23A920D57A3C003F143A /* CatboardBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F239020D57A3C003F143A /* CatboardBanner.swift */; };
+		699F23AA20D57A3C003F143A /* CatboardBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F239020D57A3C003F143A /* CatboardBanner.swift */; };
+		699F23AB20D57A3C003F143A /* DirectionEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F239120D57A3C003F143A /* DirectionEnum.swift */; };
+		699F23AC20D57A3C003F143A /* DirectionEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F239120D57A3C003F143A /* DirectionEnum.swift */; };
+		699F23AD20D57A3C003F143A /* DefaultSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 699F239220D57A3C003F143A /* DefaultSettings.xib */; };
+		699F23AE20D57A3C003F143A /* DefaultSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 699F239220D57A3C003F143A /* DefaultSettings.xib */; };
+		699F23AF20D57A3C003F143A /* KeyboardConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F239320D57A3C003F143A /* KeyboardConnector.swift */; };
+		699F23B020D57A3C003F143A /* KeyboardConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F239320D57A3C003F143A /* KeyboardConnector.swift */; };
+		699F23B120D57A3C003F143A /* ImageKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F239420D57A3C003F143A /* ImageKey.swift */; };
+		699F23B220D57A3C003F143A /* ImageKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F239420D57A3C003F143A /* ImageKey.swift */; };
+		699F23B320D57A3C003F143A /* ForwardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F239520D57A3C003F143A /* ForwardingView.swift */; };
+		699F23B420D57A3C003F143A /* ForwardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F239520D57A3C003F143A /* ForwardingView.swift */; };
+		699F23B520D57A3C003F143A /* KeyboardKeyBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F239620D57A3C003F143A /* KeyboardKeyBackground.swift */; };
+		699F23B620D57A3C003F143A /* KeyboardKeyBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F239620D57A3C003F143A /* KeyboardKeyBackground.swift */; };
+		699F23B920D57A3C003F143A /* DefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F239820D57A3C003F143A /* DefaultSettings.swift */; };
+		699F23BA20D57A3C003F143A /* DefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F239820D57A3C003F143A /* DefaultSettings.swift */; };
+		699F23BB20D57A3C003F143A /* DefaultKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F239920D57A3C003F143A /* DefaultKeyboard.swift */; };
+		699F23BC20D57A3C003F143A /* DefaultKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F239920D57A3C003F143A /* DefaultKeyboard.swift */; };
+		699F23BD20D57A3C003F143A /* Catboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F239A20D57A3C003F143A /* Catboard.swift */; };
+		699F23BE20D57A3C003F143A /* Catboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F239A20D57A3C003F143A /* Catboard.swift */; };
+		699F23BF20D57A3C003F143A /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F239B20D57A3C003F143A /* Shapes.swift */; };
+		699F23C020D57A3C003F143A /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F239B20D57A3C003F143A /* Shapes.swift */; };
+		699F23C120D57A3C003F143A /* KeyboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F239C20D57A3C003F143A /* KeyboardModel.swift */; };
+		699F23C220D57A3C003F143A /* KeyboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F239C20D57A3C003F143A /* KeyboardModel.swift */; };
+		699F23C320D57A3C003F143A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 699F239D20D57A3C003F143A /* Info.plist */; };
+		699F23C420D57A3C003F143A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 699F239D20D57A3C003F143A /* Info.plist */; };
+		699F23C520D57A3C003F143A /* KeyboardLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F239E20D57A3C003F143A /* KeyboardLayout.swift */; };
+		699F23C620D57A3C003F143A /* KeyboardLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F239E20D57A3C003F143A /* KeyboardLayout.swift */; };
+		699F23C720D57D50003F143A /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F236E20D55F05003F143A /* KeyboardViewController.swift */; };
 		69B84D9020D2914400AD4077 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84D8F20D2914400AD4077 /* AppDelegate.swift */; };
 		69B84D9220D2914400AD4077 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84D9120D2914400AD4077 /* ViewController.swift */; };
 		69B84D9520D2914400AD4077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B84D9320D2914400AD4077 /* Main.storyboard */; };
@@ -14,9 +63,41 @@
 		69B84D9A20D2914500AD4077 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B84D9820D2914500AD4077 /* LaunchScreen.storyboard */; };
 		69B84DA520D2914500AD4077 /* AirAsiaTasskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84DA420D2914500AD4077 /* AirAsiaTasskTests.swift */; };
 		69B84DB020D2914500AD4077 /* AirAsiaTasskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84DAF20D2914500AD4077 /* AirAsiaTasskUITests.swift */; };
+		69B84DC220D2DF5800AD4077 /* Login.json in Resources */ = {isa = PBXBuildFile; fileRef = 69B84DC120D2DF5800AD4077 /* Login.json */; };
+		69B84DC620D2F49D00AD4077 /* AAVirtualKeyPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84DC520D2F49D00AD4077 /* AAVirtualKeyPad.swift */; };
+		69B84DC820D2F4CF00AD4077 /* AAVirtualKeyPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69B84DC720D2F4CF00AD4077 /* AAVirtualKeyPad.xib */; };
+		69B84DCB20D2F5C800AD4077 /* AACollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84DCA20D2F5C800AD4077 /* AACollectionViewCell.swift */; };
+		69B84DD120D30AA200AD4077 /* JSONDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84DD020D30AA200AD4077 /* JSONDataHelper.swift */; };
+		69B84DD620D36F6000AD4077 /* PinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84DD520D36F6000AD4077 /* PinViewController.swift */; };
+		69B84DE120D3727100AD4077 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84DE020D3727100AD4077 /* HomeViewController.swift */; };
+		69B84DE320D3728100AD4077 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84DE220D3728100AD4077 /* HomeTableViewCell.swift */; };
+		69B84DE520D379F600AD4077 /* AccountInfoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84DE420D379F500AD4077 /* AccountInfoHeader.swift */; };
+		69B84DEA20D37D5500AD4077 /* TransactionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84DE920D37D5500AD4077 /* TransactionManager.swift */; };
+		69B84DF220D3BF8E00AD4077 /* ContactsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84DF120D3BF8E00AD4077 /* ContactsManager.swift */; };
+		69B84DF520D3C5FD00AD4077 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84DF420D3C5FD00AD4077 /* ContactsViewController.swift */; };
+		69B84DF720D3C61100AD4077 /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84DF620D3C61100AD4077 /* ContactsTableViewCell.swift */; };
+		69B84DF920D3D5D300AD4077 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84DF820D3D5D300AD4077 /* BaseViewController.swift */; };
+		69B84DFF20D3DCAB00AD4077 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84DFE20D3DCAB00AD4077 /* TransactionsViewController.swift */; };
+		69B84E0220D3E01700AD4077 /* PaymentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84E0120D3E01700AD4077 /* PaymentsViewController.swift */; };
+		69B84E0420D4024D00AD4077 /* TransactionsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84E0320D4024D00AD4077 /* TransactionsDetailsViewController.swift */; };
+		69B84E0F20D4231B00AD4077 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84E0E20D4231B00AD4077 /* CoreDataStack.swift */; };
+		69B84E1220D424F900AD4077 /* AirAsia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69B84E1020D424F900AD4077 /* AirAsia.xcdatamodeld */; };
+		69B84E2620D4322E00AD4077 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84E2520D4322E00AD4077 /* CoreDataManager.swift */; };
+		69F414FC20D4DD5D0061C6A2 /* UIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F414FB20D4DD5D0061C6A2 /* UIManager.swift */; };
+		69F414FE20D4EEEA0061C6A2 /* UserInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F414FD20D4EEEA0061C6A2 /* UserInfoManager.swift */; };
+		69F4150020D51E160061C6A2 /* AAUserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F414FF20D51E160061C6A2 /* AAUserTests.swift */; };
+		BABDC447B4F172A796F153D6 /* Pods_AirAsiaTasskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB2CB86EF4B427DD2FE84FD /* Pods_AirAsiaTasskTests.framework */; };
+		CBA3FC9CD9EDA191B6E68B42 /* Pods_AirAsiaTassk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC411E8271BEBD76986B190E /* Pods_AirAsiaTassk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		699F237120D55F05003F143A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69B84D8420D2914400AD4077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 699F236B20D55F05003F143A;
+			remoteInfo = AAKeyboard;
+		};
 		69B84DA120D2914500AD4077 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 69B84D8420D2914400AD4077 /* Project object */;
@@ -33,7 +114,52 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		699F237720D55F05003F143A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				699F237320D55F05003F143A /* AAKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		12AB3319D7F2E1306E16D36D /* Pods-AirAsiaTasskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirAsiaTasskTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirAsiaTasskTests/Pods-AirAsiaTasskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2239F67473283EB48F4FEFCE /* Pods-AirAsiaTasskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirAsiaTasskTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirAsiaTasskTests/Pods-AirAsiaTasskTests.release.xcconfig"; sourceTree = "<group>"; };
+		677C3B219E3775DCD1976A5B /* Pods-AirAsiaTasskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirAsiaTasskUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirAsiaTasskUITests/Pods-AirAsiaTasskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		699F235320D534E2003F143A /* TestsCoreDataStorageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestsCoreDataStorageManager.swift; sourceTree = "<group>"; };
+		699F235E20D541C7003F143A /* TransactionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsTests.swift; sourceTree = "<group>"; };
+		699F236020D55CD5003F143A /* Transaction+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Transaction+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		699F236120D55CD5003F143A /* Account+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Account+CoreDataClass.swift"; sourceTree = "<group>"; };
+		699F236220D55CD6003F143A /* Account+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Account+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		699F236320D55CD6003F143A /* Transaction+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Transaction+CoreDataClass.swift"; sourceTree = "<group>"; };
+		699F236C20D55F05003F143A /* AAKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AAKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		699F236E20D55F05003F143A /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		699F237020D55F05003F143A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		699F238B20D57A3C003F143A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		699F238C20D57A3C003F143A /* ExtraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraView.swift; sourceTree = "<group>"; };
+		699F238D20D57A3C003F143A /* KeyboardKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardKey.swift; sourceTree = "<group>"; };
+		699F238E20D57A3C003F143A /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		699F238F20D57A3C003F143A /* KeyboardInputTraits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardInputTraits.swift; sourceTree = "<group>"; };
+		699F239020D57A3C003F143A /* CatboardBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatboardBanner.swift; sourceTree = "<group>"; };
+		699F239120D57A3C003F143A /* DirectionEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionEnum.swift; sourceTree = "<group>"; };
+		699F239220D57A3C003F143A /* DefaultSettings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultSettings.xib; sourceTree = "<group>"; };
+		699F239320D57A3C003F143A /* KeyboardConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardConnector.swift; sourceTree = "<group>"; };
+		699F239420D57A3C003F143A /* ImageKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageKey.swift; sourceTree = "<group>"; };
+		699F239520D57A3C003F143A /* ForwardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForwardingView.swift; sourceTree = "<group>"; };
+		699F239620D57A3C003F143A /* KeyboardKeyBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardKeyBackground.swift; sourceTree = "<group>"; };
+		699F239820D57A3C003F143A /* DefaultSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultSettings.swift; sourceTree = "<group>"; };
+		699F239920D57A3C003F143A /* DefaultKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultKeyboard.swift; sourceTree = "<group>"; };
+		699F239A20D57A3C003F143A /* Catboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Catboard.swift; sourceTree = "<group>"; };
+		699F239B20D57A3C003F143A /* Shapes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		699F239C20D57A3C003F143A /* KeyboardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardModel.swift; sourceTree = "<group>"; };
+		699F239D20D57A3C003F143A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		699F239E20D57A3C003F143A /* KeyboardLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLayout.swift; sourceTree = "<group>"; };
 		69B84D8C20D2914400AD4077 /* AirAsiaTassk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirAsiaTassk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69B84D8F20D2914400AD4077 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69B84D9120D2914400AD4077 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,13 +173,50 @@
 		69B84DAB20D2914500AD4077 /* AirAsiaTasskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirAsiaTasskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69B84DAF20D2914500AD4077 /* AirAsiaTasskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirAsiaTasskUITests.swift; sourceTree = "<group>"; };
 		69B84DB120D2914500AD4077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69B84DC120D2DF5800AD4077 /* Login.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Login.json; sourceTree = "<group>"; };
+		69B84DC520D2F49D00AD4077 /* AAVirtualKeyPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAVirtualKeyPad.swift; sourceTree = "<group>"; };
+		69B84DC720D2F4CF00AD4077 /* AAVirtualKeyPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AAVirtualKeyPad.xib; sourceTree = "<group>"; };
+		69B84DCA20D2F5C800AD4077 /* AACollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AACollectionViewCell.swift; sourceTree = "<group>"; };
+		69B84DD020D30AA200AD4077 /* JSONDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDataHelper.swift; sourceTree = "<group>"; };
+		69B84DD520D36F6000AD4077 /* PinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PinViewController.swift; path = AirAsiaTassk/Classes/PinViewController.swift; sourceTree = SOURCE_ROOT; };
+		69B84DE020D3727100AD4077 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		69B84DE220D3728100AD4077 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		69B84DE420D379F500AD4077 /* AccountInfoHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfoHeader.swift; sourceTree = "<group>"; };
+		69B84DE920D37D5500AD4077 /* TransactionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionManager.swift; sourceTree = "<group>"; };
+		69B84DF120D3BF8E00AD4077 /* ContactsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsManager.swift; sourceTree = "<group>"; };
+		69B84DF420D3C5FD00AD4077 /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		69B84DF620D3C61100AD4077 /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
+		69B84DF820D3D5D300AD4077 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = Classes/BaseViewController.swift; sourceTree = "<group>"; };
+		69B84DFE20D3DCAB00AD4077 /* TransactionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		69B84E0120D3E01700AD4077 /* PaymentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsViewController.swift; sourceTree = "<group>"; };
+		69B84E0320D4024D00AD4077 /* TransactionsDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsDetailsViewController.swift; sourceTree = "<group>"; };
+		69B84E0E20D4231B00AD4077 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		69B84E1120D424F900AD4077 /* AirAsia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AirAsia.xcdatamodel; sourceTree = "<group>"; };
+		69B84E2520D4322E00AD4077 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		69F414FB20D4DD5D0061C6A2 /* UIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIManager.swift; sourceTree = "<group>"; };
+		69F414FD20D4EEEA0061C6A2 /* UserInfoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoManager.swift; sourceTree = "<group>"; };
+		69F414FF20D51E160061C6A2 /* AAUserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAUserTests.swift; sourceTree = "<group>"; };
+		6B35413A4E440305F0F750A4 /* Pods-AirAsiaTassk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirAsiaTassk.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirAsiaTassk/Pods-AirAsiaTassk.release.xcconfig"; sourceTree = "<group>"; };
+		8B0229DEBE3BAC0FB68CC118 /* Pods-AirAsiaTasskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirAsiaTasskUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirAsiaTasskUITests/Pods-AirAsiaTasskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9164EAF937708823F830C37A /* Pods-AirAsiaTassk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirAsiaTassk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirAsiaTassk/Pods-AirAsiaTassk.debug.xcconfig"; sourceTree = "<group>"; };
+		BC411E8271BEBD76986B190E /* Pods_AirAsiaTassk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirAsiaTassk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB2CB86EF4B427DD2FE84FD /* Pods_AirAsiaTasskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirAsiaTasskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F172BD3597F580F6AC6B22 /* Pods_AirAsiaTasskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirAsiaTasskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		699F236920D55F05003F143A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		69B84D8920D2914400AD4077 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBA3FC9CD9EDA191B6E68B42 /* Pods_AirAsiaTassk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +224,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BABDC447B4F172A796F153D6 /* Pods_AirAsiaTasskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +232,72 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				023CE6D110168F77DCE361E0 /* Pods_AirAsiaTasskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57126885223B9A9F420E5123 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9164EAF937708823F830C37A /* Pods-AirAsiaTassk.debug.xcconfig */,
+				6B35413A4E440305F0F750A4 /* Pods-AirAsiaTassk.release.xcconfig */,
+				12AB3319D7F2E1306E16D36D /* Pods-AirAsiaTasskTests.debug.xcconfig */,
+				2239F67473283EB48F4FEFCE /* Pods-AirAsiaTasskTests.release.xcconfig */,
+				8B0229DEBE3BAC0FB68CC118 /* Pods-AirAsiaTasskUITests.debug.xcconfig */,
+				677C3B219E3775DCD1976A5B /* Pods-AirAsiaTasskUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		699F236D20D55F05003F143A /* AAKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				699F238A20D57A3C003F143A /* Keyboard */,
+				699F236E20D55F05003F143A /* KeyboardViewController.swift */,
+				699F237020D55F05003F143A /* Info.plist */,
+			);
+			path = AAKeyboard;
+			sourceTree = "<group>";
+		};
+		699F238A20D57A3C003F143A /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				699F238B20D57A3C003F143A /* Media.xcassets */,
+				699F238C20D57A3C003F143A /* ExtraView.swift */,
+				699F238D20D57A3C003F143A /* KeyboardKey.swift */,
+				699F238E20D57A3C003F143A /* Utilities.swift */,
+				699F238F20D57A3C003F143A /* KeyboardInputTraits.swift */,
+				699F239020D57A3C003F143A /* CatboardBanner.swift */,
+				699F239120D57A3C003F143A /* DirectionEnum.swift */,
+				699F239220D57A3C003F143A /* DefaultSettings.xib */,
+				699F239320D57A3C003F143A /* KeyboardConnector.swift */,
+				699F239420D57A3C003F143A /* ImageKey.swift */,
+				699F239520D57A3C003F143A /* ForwardingView.swift */,
+				699F239620D57A3C003F143A /* KeyboardKeyBackground.swift */,
+				699F239820D57A3C003F143A /* DefaultSettings.swift */,
+				699F239920D57A3C003F143A /* DefaultKeyboard.swift */,
+				699F239A20D57A3C003F143A /* Catboard.swift */,
+				699F239B20D57A3C003F143A /* Shapes.swift */,
+				699F239C20D57A3C003F143A /* KeyboardModel.swift */,
+				699F239D20D57A3C003F143A /* Info.plist */,
+				699F239E20D57A3C003F143A /* KeyboardLayout.swift */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
 		69B84D8320D2914400AD4077 = {
 			isa = PBXGroup;
 			children = (
 				69B84D8E20D2914400AD4077 /* AirAsiaTassk */,
 				69B84DA320D2914500AD4077 /* AirAsiaTasskTests */,
 				69B84DAE20D2914500AD4077 /* AirAsiaTasskUITests */,
+				699F236D20D55F05003F143A /* AAKeyboard */,
 				69B84D8D20D2914400AD4077 /* Products */,
+				57126885223B9A9F420E5123 /* Pods */,
+				F4FE64FFE9BAF024A4F6E8D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +307,7 @@
 				69B84D8C20D2914400AD4077 /* AirAsiaTassk.app */,
 				69B84DA020D2914500AD4077 /* AirAsiaTasskTests.xctest */,
 				69B84DAB20D2914500AD4077 /* AirAsiaTasskUITests.xctest */,
+				699F236C20D55F05003F143A /* AAKeyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +317,14 @@
 			children = (
 				69B84D8F20D2914400AD4077 /* AppDelegate.swift */,
 				69B84D9120D2914400AD4077 /* ViewController.swift */,
+				69B84DF820D3D5D300AD4077 /* BaseViewController.swift */,
+				69B84E0520D41EFE00AD4077 /* CoreData */,
+				69B84DE820D37D2400AD4077 /* Managers */,
+				69B84DD420D36F2900AD4077 /* Classes */,
+				69B84DCF20D30A8100AD4077 /* Json Helpers */,
+				69B84DCE20D30A7B00AD4077 /* Models */,
+				69B84DC920D2F59000AD4077 /* VirtualKeypad */,
+				69B84DC020D2DF3F00AD4077 /* Json */,
 				69B84D9320D2914400AD4077 /* Main.storyboard */,
 				69B84D9620D2914500AD4077 /* Assets.xcassets */,
 				69B84D9820D2914500AD4077 /* LaunchScreen.storyboard */,
@@ -111,6 +337,8 @@
 			isa = PBXGroup;
 			children = (
 				69B84DA420D2914500AD4077 /* AirAsiaTasskTests.swift */,
+				69F414FF20D51E160061C6A2 /* AAUserTests.swift */,
+				699F235E20D541C7003F143A /* TransactionsTests.swift */,
 				69B84DA620D2914500AD4077 /* Info.plist */,
 			);
 			path = AirAsiaTasskTests;
@@ -125,20 +353,159 @@
 			path = AirAsiaTasskUITests;
 			sourceTree = "<group>";
 		};
+		69B84DC020D2DF3F00AD4077 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				69B84DC120D2DF5800AD4077 /* Login.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		69B84DC920D2F59000AD4077 /* VirtualKeypad */ = {
+			isa = PBXGroup;
+			children = (
+				69B84DC520D2F49D00AD4077 /* AAVirtualKeyPad.swift */,
+				69B84DC720D2F4CF00AD4077 /* AAVirtualKeyPad.xib */,
+				69B84DCA20D2F5C800AD4077 /* AACollectionViewCell.swift */,
+			);
+			path = VirtualKeypad;
+			sourceTree = "<group>";
+		};
+		69B84DCE20D30A7B00AD4077 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				699F235320D534E2003F143A /* TestsCoreDataStorageManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		69B84DCF20D30A8100AD4077 /* Json Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				69B84DD020D30AA200AD4077 /* JSONDataHelper.swift */,
+			);
+			path = "Json Helpers";
+			sourceTree = "<group>";
+		};
+		69B84DD420D36F2900AD4077 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				69B84DD520D36F6000AD4077 /* PinViewController.swift */,
+				69B84E0020D3DFF600AD4077 /* PaymentsViewController */,
+				69B84DDF20D3726400AD4077 /* Home */,
+				69B84DF320D3C5ED00AD4077 /* ContactsViewController */,
+				69B84DFD20D3DC9D00AD4077 /* TransactionViewController */,
+			);
+			name = Classes;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		69B84DDF20D3726400AD4077 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				69B84DE020D3727100AD4077 /* HomeViewController.swift */,
+				69B84DE220D3728100AD4077 /* HomeTableViewCell.swift */,
+				69B84DE420D379F500AD4077 /* AccountInfoHeader.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		69B84DE820D37D2400AD4077 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				69B84DE920D37D5500AD4077 /* TransactionManager.swift */,
+				69B84DF120D3BF8E00AD4077 /* ContactsManager.swift */,
+				69F414FB20D4DD5D0061C6A2 /* UIManager.swift */,
+				69F414FD20D4EEEA0061C6A2 /* UserInfoManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		69B84DF320D3C5ED00AD4077 /* ContactsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				69B84DF420D3C5FD00AD4077 /* ContactsViewController.swift */,
+				69B84DF620D3C61100AD4077 /* ContactsTableViewCell.swift */,
+			);
+			path = ContactsViewController;
+			sourceTree = "<group>";
+		};
+		69B84DFD20D3DC9D00AD4077 /* TransactionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				69B84DFE20D3DCAB00AD4077 /* TransactionsViewController.swift */,
+				69B84E0320D4024D00AD4077 /* TransactionsDetailsViewController.swift */,
+			);
+			path = TransactionViewController;
+			sourceTree = "<group>";
+		};
+		69B84E0020D3DFF600AD4077 /* PaymentsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				69B84E0120D3E01700AD4077 /* PaymentsViewController.swift */,
+			);
+			path = PaymentsViewController;
+			sourceTree = "<group>";
+		};
+		69B84E0520D41EFE00AD4077 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				699F236120D55CD5003F143A /* Account+CoreDataClass.swift */,
+				699F236220D55CD6003F143A /* Account+CoreDataProperties.swift */,
+				699F236320D55CD6003F143A /* Transaction+CoreDataClass.swift */,
+				699F236020D55CD5003F143A /* Transaction+CoreDataProperties.swift */,
+				69B84E0E20D4231B00AD4077 /* CoreDataStack.swift */,
+				69B84E2520D4322E00AD4077 /* CoreDataManager.swift */,
+				69B84E1020D424F900AD4077 /* AirAsia.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		F4FE64FFE9BAF024A4F6E8D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC411E8271BEBD76986B190E /* Pods_AirAsiaTassk.framework */,
+				BEB2CB86EF4B427DD2FE84FD /* Pods_AirAsiaTasskTests.framework */,
+				D0F172BD3597F580F6AC6B22 /* Pods_AirAsiaTasskUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		69B84D8B20D2914400AD4077 /* AirAsiaTassk */ = {
+		699F236B20D55F05003F143A /* AAKeyboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69B84DB420D2914500AD4077 /* Build configuration list for PBXNativeTarget "AirAsiaTassk" */;
+			buildConfigurationList = 699F237620D55F05003F143A /* Build configuration list for PBXNativeTarget "AAKeyboard" */;
 			buildPhases = (
-				69B84D8820D2914400AD4077 /* Sources */,
-				69B84D8920D2914400AD4077 /* Frameworks */,
-				69B84D8A20D2914400AD4077 /* Resources */,
+				699F236820D55F05003F143A /* Sources */,
+				699F236920D55F05003F143A /* Frameworks */,
+				699F236A20D55F05003F143A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = AAKeyboard;
+			productName = AAKeyboard;
+			productReference = 699F236C20D55F05003F143A /* AAKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		69B84D8B20D2914400AD4077 /* AirAsiaTassk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69B84DB420D2914500AD4077 /* Build configuration list for PBXNativeTarget "AirAsiaTassk" */;
+			buildPhases = (
+				1427C74B59394E93881C2B9E /* [CP] Check Pods Manifest.lock */,
+				69B84D8820D2914400AD4077 /* Sources */,
+				69B84D8920D2914400AD4077 /* Frameworks */,
+				69B84D8A20D2914400AD4077 /* Resources */,
+				31BDF2B83F749936CE53D11C /* [CP] Embed Pods Frameworks */,
+				699F237720D55F05003F143A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				699F237220D55F05003F143A /* PBXTargetDependency */,
 			);
 			name = AirAsiaTassk;
 			productName = AirAsiaTassk;
@@ -149,6 +516,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69B84DB720D2914500AD4077 /* Build configuration list for PBXNativeTarget "AirAsiaTasskTests" */;
 			buildPhases = (
+				9819A1118ACBF5EC5AF2133F /* [CP] Check Pods Manifest.lock */,
 				69B84D9C20D2914500AD4077 /* Sources */,
 				69B84D9D20D2914500AD4077 /* Frameworks */,
 				69B84D9E20D2914500AD4077 /* Resources */,
@@ -167,6 +535,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69B84DBA20D2914500AD4077 /* Build configuration list for PBXNativeTarget "AirAsiaTasskUITests" */;
 			buildPhases = (
+				AC4BCCFFBFD16D836D2C25A3 /* [CP] Check Pods Manifest.lock */,
 				69B84DA720D2914500AD4077 /* Sources */,
 				69B84DA820D2914500AD4077 /* Frameworks */,
 				69B84DA920D2914500AD4077 /* Resources */,
@@ -191,6 +560,9 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Raja Earla";
 				TargetAttributes = {
+					699F236B20D55F05003F143A = {
+						CreatedOnToolsVersion = 9.4;
+					};
 					69B84D8B20D2914400AD4077 = {
 						CreatedOnToolsVersion = 9.4;
 					};
@@ -220,18 +592,34 @@
 				69B84D8B20D2914400AD4077 /* AirAsiaTassk */,
 				69B84D9F20D2914500AD4077 /* AirAsiaTasskTests */,
 				69B84DAA20D2914500AD4077 /* AirAsiaTasskUITests */,
+				699F236B20D55F05003F143A /* AAKeyboard */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		699F236A20D55F05003F143A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699F23AE20D57A3C003F143A /* DefaultSettings.xib in Resources */,
+				699F23A020D57A3C003F143A /* Media.xcassets in Resources */,
+				699F23C420D57A3C003F143A /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		69B84D8A20D2914400AD4077 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				699F23C320D57A3C003F143A /* Info.plist in Resources */,
 				69B84D9A20D2914500AD4077 /* LaunchScreen.storyboard in Resources */,
+				69B84DC820D2F4CF00AD4077 /* AAVirtualKeyPad.xib in Resources */,
 				69B84D9720D2914500AD4077 /* Assets.xcassets in Resources */,
+				699F23AD20D57A3C003F143A /* DefaultSettings.xib in Resources */,
 				69B84D9520D2914400AD4077 /* Main.storyboard in Resources */,
+				699F239F20D57A3C003F143A /* Media.xcassets in Resources */,
+				69B84DC220D2DF5800AD4077 /* Login.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +639,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1427C74B59394E93881C2B9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirAsiaTassk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31BDF2B83F749936CE53D11C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AirAsiaTassk/Pods-AirAsiaTassk-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SVPinView/SVPinView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVPinView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirAsiaTassk/Pods-AirAsiaTassk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9819A1118ACBF5EC5AF2133F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirAsiaTasskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC4BCCFFBFD16D836D2C25A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirAsiaTasskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		699F236820D55F05003F143A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699F23C620D57A3C003F143A /* KeyboardLayout.swift in Sources */,
+				699F23A820D57A3C003F143A /* KeyboardInputTraits.swift in Sources */,
+				699F236F20D55F05003F143A /* KeyboardViewController.swift in Sources */,
+				699F23A420D57A3C003F143A /* KeyboardKey.swift in Sources */,
+				699F23AA20D57A3C003F143A /* CatboardBanner.swift in Sources */,
+				699F23B220D57A3C003F143A /* ImageKey.swift in Sources */,
+				699F23AC20D57A3C003F143A /* DirectionEnum.swift in Sources */,
+				699F23A620D57A3C003F143A /* Utilities.swift in Sources */,
+				699F23BA20D57A3C003F143A /* DefaultSettings.swift in Sources */,
+				699F23B420D57A3C003F143A /* ForwardingView.swift in Sources */,
+				699F23BC20D57A3C003F143A /* DefaultKeyboard.swift in Sources */,
+				699F23C020D57A3C003F143A /* Shapes.swift in Sources */,
+				699F23C220D57A3C003F143A /* KeyboardModel.swift in Sources */,
+				699F23B020D57A3C003F143A /* KeyboardConnector.swift in Sources */,
+				699F23A220D57A3C003F143A /* ExtraView.swift in Sources */,
+				699F23BE20D57A3C003F143A /* Catboard.swift in Sources */,
+				699F23B620D57A3C003F143A /* KeyboardKeyBackground.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		69B84D8820D2914400AD4077 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				699F23A720D57A3C003F143A /* KeyboardInputTraits.swift in Sources */,
+				699F23BD20D57A3C003F143A /* Catboard.swift in Sources */,
 				69B84D9220D2914400AD4077 /* ViewController.swift in Sources */,
+				69B84DF720D3C61100AD4077 /* ContactsTableViewCell.swift in Sources */,
+				69F414FE20D4EEEA0061C6A2 /* UserInfoManager.swift in Sources */,
+				699F23AF20D57A3C003F143A /* KeyboardConnector.swift in Sources */,
+				69B84DF920D3D5D300AD4077 /* BaseViewController.swift in Sources */,
+				699F23BB20D57A3C003F143A /* DefaultKeyboard.swift in Sources */,
+				699F23A920D57A3C003F143A /* CatboardBanner.swift in Sources */,
+				699F236720D55CD6003F143A /* Transaction+CoreDataClass.swift in Sources */,
+				699F23B920D57A3C003F143A /* DefaultSettings.swift in Sources */,
+				69B84DCB20D2F5C800AD4077 /* AACollectionViewCell.swift in Sources */,
+				69B84DF520D3C5FD00AD4077 /* ContactsViewController.swift in Sources */,
+				699F23A320D57A3C003F143A /* KeyboardKey.swift in Sources */,
+				699F23C120D57A3C003F143A /* KeyboardModel.swift in Sources */,
+				69B84DFF20D3DCAB00AD4077 /* TransactionsViewController.swift in Sources */,
+				69B84DD620D36F6000AD4077 /* PinViewController.swift in Sources */,
+				699F23C520D57A3C003F143A /* KeyboardLayout.swift in Sources */,
+				699F236420D55CD6003F143A /* Transaction+CoreDataProperties.swift in Sources */,
+				69B84E1220D424F900AD4077 /* AirAsia.xcdatamodeld in Sources */,
+				699F235420D534E2003F143A /* TestsCoreDataStorageManager.swift in Sources */,
+				699F23B120D57A3C003F143A /* ImageKey.swift in Sources */,
+				69B84DE520D379F600AD4077 /* AccountInfoHeader.swift in Sources */,
+				69B84DF220D3BF8E00AD4077 /* ContactsManager.swift in Sources */,
+				69B84DE320D3728100AD4077 /* HomeTableViewCell.swift in Sources */,
+				69B84E0420D4024D00AD4077 /* TransactionsDetailsViewController.swift in Sources */,
+				69B84DE120D3727100AD4077 /* HomeViewController.swift in Sources */,
+				699F23A520D57A3C003F143A /* Utilities.swift in Sources */,
+				699F23B520D57A3C003F143A /* KeyboardKeyBackground.swift in Sources */,
+				699F23A120D57A3C003F143A /* ExtraView.swift in Sources */,
+				699F236620D55CD6003F143A /* Account+CoreDataProperties.swift in Sources */,
+				699F236520D55CD6003F143A /* Account+CoreDataClass.swift in Sources */,
+				69F414FC20D4DD5D0061C6A2 /* UIManager.swift in Sources */,
 				69B84D9020D2914400AD4077 /* AppDelegate.swift in Sources */,
+				69B84DEA20D37D5500AD4077 /* TransactionManager.swift in Sources */,
+				699F23C720D57D50003F143A /* KeyboardViewController.swift in Sources */,
+				699F23B320D57A3C003F143A /* ForwardingView.swift in Sources */,
+				699F23BF20D57A3C003F143A /* Shapes.swift in Sources */,
+				69B84E2620D4322E00AD4077 /* CoreDataManager.swift in Sources */,
+				69B84E0220D3E01700AD4077 /* PaymentsViewController.swift in Sources */,
+				699F23AB20D57A3C003F143A /* DirectionEnum.swift in Sources */,
+				69B84E0F20D4231B00AD4077 /* CoreDataStack.swift in Sources */,
+				69B84DD120D30AA200AD4077 /* JSONDataHelper.swift in Sources */,
+				69B84DC620D2F49D00AD4077 /* AAVirtualKeyPad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +794,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69F4150020D51E160061C6A2 /* AAUserTests.swift in Sources */,
 				69B84DA520D2914500AD4077 /* AirAsiaTasskTests.swift in Sources */,
+				699F235F20D541C7003F143A /* TransactionsTests.swift in Sources */,
+				699F235520D534E2003F143A /* TestsCoreDataStorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +812,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		699F237220D55F05003F143A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 699F236B20D55F05003F143A /* AAKeyboard */;
+			targetProxy = 699F237120D55F05003F143A /* PBXContainerItemProxy */;
+		};
 		69B84DA220D2914500AD4077 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 69B84D8B20D2914400AD4077 /* AirAsiaTassk */;
@@ -312,6 +849,45 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		699F237420D55F05003F143A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W84G353H2H;
+				INFOPLIST_FILE = AAKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soundoff.adhoc.AAKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		699F237520D55F05003F143A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W84G353H2H;
+				INFOPLIST_FILE = AAKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soundoff.adhoc.AAKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		69B84DB220D2914500AD4077 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -428,16 +1004,22 @@
 		};
 		69B84DB520D2914500AD4077 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9164EAF937708823F830C37A /* Pods-AirAsiaTassk.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = W84G353H2H;
 				INFOPLIST_FILE = AirAsiaTassk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.soundoff.adhoc.AirAsiaTassk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soundoff.adhoc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4221d616-0129-42fa-a219-3dc533b03a8e";
+				PROVISIONING_PROFILE_SPECIFIER = SoundOffDevelopmentProfile;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,16 +1027,23 @@
 		};
 		69B84DB620D2914500AD4077 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B35413A4E440305F0F750A4 /* Pods-AirAsiaTassk.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = W84G353H2H;
 				INFOPLIST_FILE = AirAsiaTassk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.soundoff.adhoc.AirAsiaTassk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soundoff.adhoc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "915e379f-96b3-4ce1-80cf-1fa0f46cc721";
+				PROVISIONING_PROFILE_SPECIFIER = "SoundOff adhoc profile";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,6 +1051,7 @@
 		};
 		69B84DB820D2914500AD4077 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12AB3319D7F2E1306E16D36D /* Pods-AirAsiaTasskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +1072,7 @@
 		};
 		69B84DB920D2914500AD4077 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2239F67473283EB48F4FEFCE /* Pods-AirAsiaTasskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +1093,7 @@
 		};
 		69B84DBB20D2914500AD4077 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B0229DEBE3BAC0FB68CC118 /* Pods-AirAsiaTasskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +1113,7 @@
 		};
 		69B84DBC20D2914500AD4077 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 677C3B219E3775DCD1976A5B /* Pods-AirAsiaTasskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +1134,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		699F237620D55F05003F143A /* Build configuration list for PBXNativeTarget "AAKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				699F237420D55F05003F143A /* Debug */,
+				699F237520D55F05003F143A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		69B84D8720D2914400AD4077 /* Build configuration list for PBXProject "AirAsiaTassk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -578,6 +1180,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		69B84E1020D424F900AD4077 /* AirAsia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				69B84E1120D424F900AD4077 /* AirAsia.xcdatamodel */,
+			);
+			currentVersion = 69B84E1120D424F900AD4077 /* AirAsia.xcdatamodel */;
+			path = AirAsia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 69B84D8420D2914400AD4077 /* Project object */;
 }

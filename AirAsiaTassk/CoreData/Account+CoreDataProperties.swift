@@ -16,10 +16,10 @@ extension Account {
         return NSFetchRequest<Account>(entityName: "Account")
     }
 
-    @NSManaged public var balance: Int16
+    @NSManaged public var balance: Int64
     @NSManaged public var isSignedIn: Bool
     @NSManaged public var name: String?
-    @NSManaged public var pin: Int16
-    @NSManaged public var uid: Int16
+    @NSManaged public var pin: Int64
+    @NSManaged public var uid: Int64
 
 }
