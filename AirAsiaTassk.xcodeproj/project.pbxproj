@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69B84D9020D2914400AD4077 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84D8F20D2914400AD4077 /* AppDelegate.swift */; };
+		69B84D9220D2914400AD4077 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84D9120D2914400AD4077 /* ViewController.swift */; };
+		69B84D9520D2914400AD4077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B84D9320D2914400AD4077 /* Main.storyboard */; };
+		69B84D9720D2914500AD4077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69B84D9620D2914500AD4077 /* Assets.xcassets */; };
+		69B84D9A20D2914500AD4077 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B84D9820D2914500AD4077 /* LaunchScreen.storyboard */; };
+		69B84DA520D2914500AD4077 /* AirAsiaTasskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84DA420D2914500AD4077 /* AirAsiaTasskTests.swift */; };
+		69B84DB020D2914500AD4077 /* AirAsiaTasskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B84DAF20D2914500AD4077 /* AirAsiaTasskUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69B84DA120D2914500AD4077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69B84D8420D2914400AD4077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69B84D8B20D2914400AD4077;
+			remoteInfo = AirAsiaTassk;
+		};
+		69B84DAC20D2914500AD4077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69B84D8420D2914400AD4077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69B84D8B20D2914400AD4077;
+			remoteInfo = AirAsiaTassk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69B84D8C20D2914400AD4077 /* AirAsiaTassk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirAsiaTassk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B84D8F20D2914400AD4077 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69B84D9120D2914400AD4077 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69B84D9420D2914400AD4077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69B84D9620D2914500AD4077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69B84D9920D2914500AD4077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69B84D9B20D2914500AD4077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69B84DA020D2914500AD4077 /* AirAsiaTasskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirAsiaTasskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B84DA420D2914500AD4077 /* AirAsiaTasskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirAsiaTasskTests.swift; sourceTree = "<group>"; };
+		69B84DA620D2914500AD4077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69B84DAB20D2914500AD4077 /* AirAsiaTasskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirAsiaTasskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B84DAF20D2914500AD4077 /* AirAsiaTasskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirAsiaTasskUITests.swift; sourceTree = "<group>"; };
+		69B84DB120D2914500AD4077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69B84D8920D2914400AD4077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B84D9D20D2914500AD4077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B84DA820D2914500AD4077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69B84D8320D2914400AD4077 = {
+			isa = PBXGroup;
+			children = (
+				69B84D8E20D2914400AD4077 /* AirAsiaTassk */,
+				69B84DA320D2914500AD4077 /* AirAsiaTasskTests */,
+				69B84DAE20D2914500AD4077 /* AirAsiaTasskUITests */,
+				69B84D8D20D2914400AD4077 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69B84D8D20D2914400AD4077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69B84D8C20D2914400AD4077 /* AirAsiaTassk.app */,
+				69B84DA020D2914500AD4077 /* AirAsiaTasskTests.xctest */,
+				69B84DAB20D2914500AD4077 /* AirAsiaTasskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69B84D8E20D2914400AD4077 /* AirAsiaTassk */ = {
+			isa = PBXGroup;
+			children = (
+				69B84D8F20D2914400AD4077 /* AppDelegate.swift */,
+				69B84D9120D2914400AD4077 /* ViewController.swift */,
+				69B84D9320D2914400AD4077 /* Main.storyboard */,
+				69B84D9620D2914500AD4077 /* Assets.xcassets */,
+				69B84D9820D2914500AD4077 /* LaunchScreen.storyboard */,
+				69B84D9B20D2914500AD4077 /* Info.plist */,
+			);
+			path = AirAsiaTassk;
+			sourceTree = "<group>";
+		};
+		69B84DA320D2914500AD4077 /* AirAsiaTasskTests */ = {
+			isa = PBXGroup;
+			children = (
+				69B84DA420D2914500AD4077 /* AirAsiaTasskTests.swift */,
+				69B84DA620D2914500AD4077 /* Info.plist */,
+			);
+			path = AirAsiaTasskTests;
+			sourceTree = "<group>";
+		};
+		69B84DAE20D2914500AD4077 /* AirAsiaTasskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69B84DAF20D2914500AD4077 /* AirAsiaTasskUITests.swift */,
+				69B84DB120D2914500AD4077 /* Info.plist */,
+			);
+			path = AirAsiaTasskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69B84D8B20D2914400AD4077 /* AirAsiaTassk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69B84DB420D2914500AD4077 /* Build configuration list for PBXNativeTarget "AirAsiaTassk" */;
+			buildPhases = (
+				69B84D8820D2914400AD4077 /* Sources */,
+				69B84D8920D2914400AD4077 /* Frameworks */,
+				69B84D8A20D2914400AD4077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirAsiaTassk;
+			productName = AirAsiaTassk;
+			productReference = 69B84D8C20D2914400AD4077 /* AirAsiaTassk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69B84D9F20D2914500AD4077 /* AirAsiaTasskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69B84DB720D2914500AD4077 /* Build configuration list for PBXNativeTarget "AirAsiaTasskTests" */;
+			buildPhases = (
+				69B84D9C20D2914500AD4077 /* Sources */,
+				69B84D9D20D2914500AD4077 /* Frameworks */,
+				69B84D9E20D2914500AD4077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69B84DA220D2914500AD4077 /* PBXTargetDependency */,
+			);
+			name = AirAsiaTasskTests;
+			productName = AirAsiaTasskTests;
+			productReference = 69B84DA020D2914500AD4077 /* AirAsiaTasskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69B84DAA20D2914500AD4077 /* AirAsiaTasskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69B84DBA20D2914500AD4077 /* Build configuration list for PBXNativeTarget "AirAsiaTasskUITests" */;
+			buildPhases = (
+				69B84DA720D2914500AD4077 /* Sources */,
+				69B84DA820D2914500AD4077 /* Frameworks */,
+				69B84DA920D2914500AD4077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69B84DAD20D2914500AD4077 /* PBXTargetDependency */,
+			);
+			name = AirAsiaTasskUITests;
+			productName = AirAsiaTasskUITests;
+			productReference = 69B84DAB20D2914500AD4077 /* AirAsiaTasskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69B84D8420D2914400AD4077 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Raja Earla";
+				TargetAttributes = {
+					69B84D8B20D2914400AD4077 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					69B84D9F20D2914500AD4077 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 69B84D8B20D2914400AD4077;
+					};
+					69B84DAA20D2914500AD4077 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 69B84D8B20D2914400AD4077;
+					};
+				};
+			};
+			buildConfigurationList = 69B84D8720D2914400AD4077 /* Build configuration list for PBXProject "AirAsiaTassk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69B84D8320D2914400AD4077;
+			productRefGroup = 69B84D8D20D2914400AD4077 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69B84D8B20D2914400AD4077 /* AirAsiaTassk */,
+				69B84D9F20D2914500AD4077 /* AirAsiaTasskTests */,
+				69B84DAA20D2914500AD4077 /* AirAsiaTasskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69B84D8A20D2914400AD4077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B84D9A20D2914500AD4077 /* LaunchScreen.storyboard in Resources */,
+				69B84D9720D2914500AD4077 /* Assets.xcassets in Resources */,
+				69B84D9520D2914400AD4077 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B84D9E20D2914500AD4077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B84DA920D2914500AD4077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69B84D8820D2914400AD4077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B84D9220D2914400AD4077 /* ViewController.swift in Sources */,
+				69B84D9020D2914400AD4077 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B84D9C20D2914500AD4077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B84DA520D2914500AD4077 /* AirAsiaTasskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B84DA720D2914500AD4077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B84DB020D2914500AD4077 /* AirAsiaTasskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69B84DA220D2914500AD4077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69B84D8B20D2914400AD4077 /* AirAsiaTassk */;
+			targetProxy = 69B84DA120D2914500AD4077 /* PBXContainerItemProxy */;
+		};
+		69B84DAD20D2914500AD4077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69B84D8B20D2914400AD4077 /* AirAsiaTassk */;
+			targetProxy = 69B84DAC20D2914500AD4077 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69B84D9320D2914400AD4077 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69B84D9420D2914400AD4077 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69B84D9820D2914500AD4077 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69B84D9920D2914500AD4077 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69B84DB220D2914500AD4077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69B84DB320D2914500AD4077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69B84DB520D2914500AD4077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirAsiaTassk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soundoff.adhoc.AirAsiaTassk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69B84DB620D2914500AD4077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirAsiaTassk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soundoff.adhoc.AirAsiaTassk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		69B84DB820D2914500AD4077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirAsiaTasskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soundoff.adhoc.AirAsiaTasskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirAsiaTassk.app/AirAsiaTassk";
+			};
+			name = Debug;
+		};
+		69B84DB920D2914500AD4077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirAsiaTasskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soundoff.adhoc.AirAsiaTasskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirAsiaTassk.app/AirAsiaTassk";
+			};
+			name = Release;
+		};
+		69B84DBB20D2914500AD4077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirAsiaTasskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soundoff.adhoc.AirAsiaTasskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirAsiaTassk;
+			};
+			name = Debug;
+		};
+		69B84DBC20D2914500AD4077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirAsiaTasskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soundoff.adhoc.AirAsiaTasskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirAsiaTassk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69B84D8720D2914400AD4077 /* Build configuration list for PBXProject "AirAsiaTassk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B84DB220D2914500AD4077 /* Debug */,
+				69B84DB320D2914500AD4077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69B84DB420D2914500AD4077 /* Build configuration list for PBXNativeTarget "AirAsiaTassk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B84DB520D2914500AD4077 /* Debug */,
+				69B84DB620D2914500AD4077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69B84DB720D2914500AD4077 /* Build configuration list for PBXNativeTarget "AirAsiaTasskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B84DB820D2914500AD4077 /* Debug */,
+				69B84DB920D2914500AD4077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69B84DBA20D2914500AD4077 /* Build configuration list for PBXNativeTarget "AirAsiaTasskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B84DBB20D2914500AD4077 /* Debug */,
+				69B84DBC20D2914500AD4077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69B84D8420D2914400AD4077 /* Project object */;
+}
