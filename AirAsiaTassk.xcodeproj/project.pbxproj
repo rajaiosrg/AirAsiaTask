@@ -1016,7 +1016,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.soundoff.adhoc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.airasiatask.aa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "4221d616-0129-42fa-a219-3dc533b03a8e";
 				PROVISIONING_PROFILE_SPECIFIER = SoundOffDevelopmentProfile;
@@ -1040,7 +1040,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.soundoff.adhoc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.airasiatask.aa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "915e379f-96b3-4ce1-80cf-1fa0f46cc721";
 				PROVISIONING_PROFILE_SPECIFIER = "SoundOff adhoc profile";
